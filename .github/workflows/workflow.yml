@@ -6,7 +6,7 @@ on:
   branch: main
 jobs:
  build:
-  run-on: ubuntu-latest
+  runs-on: ubuntu-latest
   container: python:3.9-slim
   steps:
     - name: Checkout
